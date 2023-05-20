@@ -1,0 +1,22 @@
+/*  
+    You can write comments
+    in multiple lines
+    like this
+*/
+Var a, b, c, d;
+Begin
+	a := 228;
+	b := 1337;
+	c := b * a;
+
+    /* And you can even use comments inside your code */
+
+	Repeat
+		a := a - 1;
+	Until a >= 100
+
+	{
+		a:= a * c;
+		c:= not (a / b >= 5);
+	}
+End
